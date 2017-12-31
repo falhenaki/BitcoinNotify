@@ -54,6 +54,7 @@ while 1 == 1
   #change in thousands
   elsif btcDigits[1] != second
     send_email "fawaz.alhenaki@hotmail.com", :subject => "min movement in btc it's now " + price + " dollars"
+    puts("min movement in btc it's now " + price + " dollars")
     second = btcDigits[1]
   end
   
